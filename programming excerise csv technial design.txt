@@ -1,0 +1,31 @@
+1) Jasper Turner 6/23/2024
+2)This program allows an instructor to input grades for a specified number of students. It then writes this data into a CSV file named grades.csv with headers for first name, last name, and three exam scores. After writing the data, it reads and displays the contents of grades.csv in a tabular format.\
+3)num_students: Stores the number of students entered by the instructor.
+fieldnames: List of strings representing the headers for the CSV file (['First Name', 'Last Name', 'Exam 1', 'Exam 2', 'Exam 3']).
+4)write_grades_to_csv(num_students): Writes student data to grades.csv. It prompts the instructor for each student's details and uses csv.DictWriter to write data in CSV format.
+read_grades_from_csv(): Reads and displays student data from grades.csv. It uses csv.DictReader to read CSV data and prints it in a formatted tabular format.
+5)Prompt the instructor for number of students
+num_students = read_input()
+
+write_grades_to_csv(num_students):
+    Open grades.csv in write mode
+    Define CSV header: 'First Name', 'Last Name', 'Exam 1', 'Exam 2', 'Exam 3'
+    Write header to CSV
+
+    Loop num_students times:
+        Prompt for first_name, last_name, exam1, exam2, exam3
+        Convert exam scores to integers
+        Write {first_name, last_name, exam1, exam2, exam3} to CSV
+
+read_grades_from_csv():
+    Open grades.csv in read mode
+    Print formatted header: 'First Name', 'Last Name', 'Exam 1', 'Exam 2', 'Exam 3'
+
+    For each row in CSV:
+        Print formatted {first_name, last_name, exam1, exam2, exam3}
+
+main():
+    Prompt for num_students
+    Call write_grades_to_csv(num_students)
+    Call read_grades_from_csv()
+6)https://github.com/JasperT775/COP2373/blob/main/Programming%20excerise%20CSV.py

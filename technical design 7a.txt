@@ -1,0 +1,19 @@
+1) Jasper Turner 6/23/2024
+2)This Python program extracts sentences from a given text string using a regular expression pattern. It demonstrates how to use the 're' module to find sentences that start with an uppercase letter or a digit, end with '.', '!', or '?', and are followed either by another uppercase letter/digit or the end of the string.
+3)The main variables used are pattern (the regular expression pattern to match sentences) and sentences (the list of extracted sentences).
+4)extract_sentences(text): This function takes a text input, applies the defined regular expression pattern to find sentences, and returns a list of matched sentences.
+main(): This function serves as the entry point of the program. It defines an example text, calls extract_sentences to extract sentences from the text, and then prints each extracted sentence along with the total count of sentences.
+5)Function extract_sentences(text):
+    Define a regular expression pattern to match sentences.
+    Use re.findall to find all matches of the pattern in the input text.
+    Return the list of matched sentences.
+
+Function main():
+    Define an example text containing multiple sentences.
+    Call extract_sentences to extract sentences from the example text.
+    Print each extracted sentence with an index.
+    Print the total number of extracted sentences.
+
+If __name__ == "__main__":
+    Call the main function to execute the program.
+6)https://github.com/JasperT775/Programming-exercise-7a-/blob/main/programming%20excerise%207A.py
