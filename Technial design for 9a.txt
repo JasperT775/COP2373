@@ -1,0 +1,47 @@
+1) Jasper Turner 6/23/2024
+2)The program defines a BankAcct class that models a bank account with attributes for account holder's name, account number, current balance (amount), and interest rate (interest_rate). It provides methods to adjust the interest rate, deposit and withdraw money, get the current balance, calculate interest based on days, and generate a string representation of the account information.
+3)name: Represents the name of the account holder.
+account_number: Represents the account number of the bank account.
+initial_amount: Represents the initial balance of the bank account.
+interest_rate: Represents the interest rate applicable to the bank account.
+acct: Instance of the BankAcct class used for testing purposes.
+4)BankAcct.__init__(self, name, account_number, initial_amount, interest_rate): Initializes an instance of the BankAcct class with given attributes.
+BankAcct.adjust_interest_rate(self, new_interest_rate): Adjusts the interest rate of the account.
+BankAcct.deposit(self, amount): Deposits a specified amount into the account.
+BankAcct.withdraw(self, amount): Withdraws a specified amount from the account.
+BankAcct.get_balance(self): Returns the current balance of the account.
+BankAcct.calculate_interest(self, days): Calculates the interest earned based on the number of days.
+BankAcct.__str__(self): Returns a string representation of the account information.
+test_bank_acct(): Tests various methods of the BankAcct class and prints the results.
+5)Define the BankAcct class: Create a class to represent a bank account.
+
+Initialize the class with required attributes: Define a constructor (__init__ method) to initialize the class with name, account number, initial amount, and interest rate.
+
+Method to adjust the interest rate: Create a method (adjust_interest_rate) to modify the interest rate of the account.
+
+Method to deposit money into the account: Implement a method (deposit) to add funds to the account, ensuring the amount is positive.
+
+Method to withdraw money from the account: Develop a method (withdraw) to deduct funds from the account, verifying the withdrawal amount does not exceed the current balance.
+
+Method to get the current balance: Provide a method (get_balance) to retrieve the current balance of the account.
+
+Method to calculate interest based on days: Define a method (calculate_interest) to compute and return the interest earned over a specified number of days.
+
+Method to provide a string representation of the object: Implement the __str__ method to generate a human-readable string representation of the account information.
+
+Define a function to test the BankAcct class: Create a function (test_bank_acct) to demonstrate the functionality of the BankAcct class.
+
+Create an instance of BankAcct: Instantiate a BankAcct object with initial values.
+
+Display initial account information: Print the account details upon initialization.
+
+Adjust the interest rate: Modify the interest rate and display the updated information.
+
+Deposit some money: Add funds to the account and print the updated balance.
+
+Withdraw some money: Deduct funds from the account and display the revised balance.
+
+Calculate interest for 180 days: Compute the interest accrued over a specified period and print the amount earned.
+
+Test the BankAcct class by running the test function: Execute the test_bank_acct function to verify the correctness of the BankAcct class implementation.
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%209A.py
