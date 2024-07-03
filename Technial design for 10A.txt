@@ -1,0 +1,37 @@
+1) Jasper Turner 6/23/2024
+2)This Python program defines a Money class that encapsulates basic operations on monetary values (amount), including addition, subtraction, and multiplication by scalars. It uses operator overloading to support these operations (+, -, *). Additionally, there is a test function that validates these operations by creating instances of Money objects and performing arithmetic operations on them, printing the results.
+3)In the Money class:
+
+amount: Instance variable initialized with a default value of 0.0.
+In the test_money_operations function:
+
+money1: An instance of Money initialized with 100.0.
+money2: An instance of Money initialized with 50.0.
+scalar: A floating-point scalar value (1.5) used for multiplication.
+4)Money class:
+
+__init__(self, amount=0.0): Initializes a Money object with an optional initial amount.
+__add__(self, other): Overloads the + operator to perform addition between two Money objects.
+__sub__(self, other): Overloads the - operator to perform subtraction between two Money objects.
+__mul__(self, other): Overloads the * operator to multiply a Money object by a scalar (int or float).
+__str__(self): Provides a string representation of the Money object formatted to two decimal places.
+test_money_operations function:
+
+test_money_operations(): Creates instances (money1, money2) of Money.
+Tests addition (money1 + money2), subtraction (money1 - money2), and multiplication (money1 * scalar) operations.
+Prints results of each operation to verify correctness.
+5)Define the Money class:
+
+Initialize with an optional amount.
+Implement operator overloading (+, -, *) to support addition, subtraction, and multiplication operations.
+Provide a string representation method (__str__) for displaying Money objects.
+Define the test_money_operations function:
+
+Create instances (money1, money2) of Money.
+Test addition (money1 + money2), subtraction (money1 - money2), and multiplication (money1 * scalar) operations.
+Print results of each operation to verify correctness.
+Execute the test function:
+
+Check if the script is being run directly (if __name__ == "__main__").
+Call test_money_operations() to run tests and display results.
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%2010a.py
