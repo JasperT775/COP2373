@@ -1,0 +1,15 @@
+1) Jasper Turner 6/23/2024
+2)The program defines two classes: Money and BankAcct.
+Money class provides basic operations (add, subtract, get_amount) for managing a monetary amount.
+BankAcct class inherits from Money and adds functionality specific to a bank account, such as adjusting interest rate, calculating interest, and displaying account information.
+The test_bank_acct function tests various methods of the BankAcct class to demonstrate its functionality.
+3)Variables created include name, account_number, initial_amount, interest_rate within the BankAcct class constructor (__init__ method).
+days variable is used to specify the number of days for calculating interest in the test_bank_acct function.
+4)add, subtract, get_amount methods in the Money class for basic money operations.
+adjust_interest_rate, calculate_interest, __str__ methods in the BankAcct class for bank account-specific operations.
+test_bank_acct function to test the functionalities of the BankAcct class.
+5)Step 1: Define the Money class with methods for adding, subtracting, and retrieving the amount.
+Step 2: Define the BankAcct class inheriting from Money, initializing with account details and interest rate.
+Step 3: Implement methods in BankAcct for adjusting interest rate, calculating interest based on days, and providing a string representation of the account.
+Step 4: Write a test function (test_bank_acct) to create an instance of BankAcct, display initial account information, adjust interest rate, deposit and withdraw money using inherited methods (add, subtract), calculate interest, and print updated account information.
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%2010b.py
