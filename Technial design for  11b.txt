@@ -1,0 +1,45 @@
+1) Jasper Turner 6/23/2024
+2)This program calculates the length of the hypotenuse of a right triangle when given the nearest angle (in degrees) and the length of the adjacent side. It uses basic trigonometry, specifically the cosine function, to determine the hypotenuse length.
+3)
+angle_degrees: This variable holds the value of the nearest angle in degrees provided by the user.
+adjacent_length: This variable holds the value of the length of the adjacent side provided by the user.
+angle_radians: This variable holds the value of the angle converted from degrees to radians.
+hypotenuse_length: This variable holds the calculated length of the hypotenuse.
+4)Input: angle_degrees (nearest angle in degrees) and adjacent_length (length of the adjacent side).
+Process:
+Convert the angle from degrees to radians using the math.radians function.
+Calculate the hypotenuse length using the cosine function: 
+hypotenuse_length
+=
+adjacent_length
+cos
+⁡(angle_radians)
+hypotenuse_length= 
+cos(angle_radians)
+adjacent_length
+​
+ .
+Output: Return the calculated hypotenuse length.
+5)Import the math module.
+Define the function calculate_hypotenuse with parameters angle_degrees and adjacent_length.
+Inside the function:
+Convert angle_degrees to radians and store in angle_radians.
+Calculate hypotenuse_length using the formula: 
+hypotenuse_length
+=
+adjacent_length
+cos
+⁡
+(
+angle_radians
+)
+hypotenuse_length= 
+cos(angle_radians)
+adjacent_length
+​
+ .
+Return hypotenuse_length.
+Set example values for angle and adjacent.
+Call calculate_hypotenuse with the example values.
+Print the length of the hypotenuse, formatted to two decimal places.
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%2011b.py
