@@ -1,0 +1,38 @@
+1) Jasper Turner 6/23/2024
+2)This program creates a database to store the population data of 10 cities in Florida for the year 2023 and simulates population growth for the next 20 years at a 2% growth rate per year. It then allows the user to visualize the population growth of a chosen city using the turtle graphics module.
+3)conn: SQLite connection object.
+cursor: SQLite cursor object.
+cities: List of tuples containing initial population data for 10 cities.
+initial_data: Data fetched from the database containing initial population values for the year 2023.
+years: List of years for the chosen city.
+populations: List of population values for the chosen city.
+4)create_database(): Creates a SQLite database and table for population data.
+insert_initial_data(): Inserts initial population data for 10 cities in Florida for the year 2023.
+simulate_population_growth(): Simulates population growth at a 2% annual rate for the next 20 years and inserts the data into the database.
+visualize_population_growth(): Visualizes the population growth of a chosen city using the turtle graphics module.
+main(): Executes the workflow by calling the other functions in sequence.
+5)Create Database and Table
+
+Connect to SQLite database.
+Create population table if it does not exist.
+Insert Initial Data
+
+Define initial population data for 10 cities in Florida for the year 2023.
+Insert this data into the population table.
+Simulate Population Growth
+
+Fetch initial population data for the year 2023.
+For each city, simulate population growth for the next 20 years at a 2% annual growth rate.
+Insert the simulated data into the population table.
+Visualize Population Growth
+
+List the 10 cities and prompt the user to choose one.
+Fetch population data for the chosen city from the database.
+Use the turtle graphics module to plot the population growth over the years.
+Main Function
+
+Call create_database().
+Call insert_initial_data().
+Call simulate_population_growth().
+Call visualize_population_growth().
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%2013db.py
