@@ -1,0 +1,46 @@
+1) Jasper Turner 6/23/2024
+2)This program collects student grades for three exams, saves them to a CSV file, and then loads the data to perform various statistical calculations. The program calculates mean, median, standard deviation, minimum, and maximum for each exam and overall. Additionally, it determines the number of students who passed or failed each exam and calculates the overall pass percentage.
+3)num_students: Number of students for whom data is being collected.
+data: List of lists containing student grades.
+exam_scores: List of lists containing scores for each exam.
+total_students: Total number of student exam records.
+total_passed: Total number of passing exam scores.
+4)write_grades_to_csv(num_students): Collects and writes student data to a CSV file.
+read_grades_from_csv(): Reads and displays student data from the CSV file.
+load_grades_to_list(filename='grades.csv'): Loads data from the CSV file into a list of lists.
+calculate_statistics(data): Calculates and prints statistics for each exam and overall.
+pass_fail_statistics(data): Determines and prints the number of students who passed and failed each exam and calculates the overall pass percentage.
+main(): Manages the workflow of data entry, display, and statistical calculations.
+5)Define write_grades_to_csv(num_students) function:
+
+Open 'grades.csv' in write mode.
+Write header to CSV file.
+Loop through num_students to collect and write student data to CSV.
+Define read_grades_from_csv() function:
+
+Open 'grades.csv' in read mode.
+Read and print each row of data from the CSV file.
+Define load_grades_to_list(filename='grades.csv') function:
+
+Load data from CSV file into a list of lists.
+Define calculate_statistics(data) function:
+
+Extract exam scores from data.
+Calculate and print mean, median, standard deviation, minimum, and maximum for each exam.
+Calculate and print overall statistics for all exams combined.
+Define pass_fail_statistics(data) function:
+
+Extract exam scores from data.
+Determine and print the number of students who passed and failed each exam.
+Calculate and print the overall pass percentage across all exams.
+Define main() function:
+
+Prompt for the number of students.
+Call write_grades_to_csv(num_students).
+Call read_grades_from_csv().
+Load data into a list using load_grades_to_list().
+Print the first few rows of the dataset.
+Call calculate_statistics(data).
+Call pass_fail_statistics(data).
+Run main() if the script is executed directly.
+6)https://github.com/JasperT775/COP2373/blob/main/programming%20excerise%2012A.py
